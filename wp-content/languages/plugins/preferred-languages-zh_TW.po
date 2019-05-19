@@ -1,0 +1,127 @@
+# Translation of Plugins - Preferred Languages - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Preferred Languages - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-26 20:52:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Preferred Languages - Stable (latest release)\n"
+
+#. translators: accessibility text
+#: inc/functions.php:549
+msgid "Move up (Alt+Up)"
+msgstr "上移 (Alt+向上鍵)"
+
+#. translators: accessibility text
+#: inc/functions.php:552
+msgid "Move down (Alt+Down)"
+msgstr "下移 (Alt+向下鍵)"
+
+#. translators: accessibility text
+#: inc/functions.php:555
+msgid "Remove from list (Alt+Delete)"
+msgstr "從清單中移除 (Alt+刪除鍵)"
+
+#. translators: accessibility text
+#: inc/functions.php:558
+msgid "Add to list (Alt+A)"
+msgstr "新增至清單 (Alt+A)"
+
+#: inc/functions.php:679
+msgid "Some of the languages are not installed. Re-save changes to download translations."
+msgstr "某些語言套件尚未下載，請重新儲存變更以下載這些語言套件。"
+
+#. translators: %s: English (United States)
+#: inc/functions.php:567
+msgid "No languages selected. Falling back to %s."
+msgstr "並未選取任何語言套件。切換回 [%s]。"
+
+#: inc/functions.php:570
+msgid "No languages selected. Falling back to Site Default."
+msgstr "並未選取任何語言套件。切換回預設的網站介面語言。"
+
+#: inc/functions.php:22
+msgid "List of preferred locales."
+msgstr "地區語言偏好清單。"
+
+#: inc/functions.php:416
+msgid "Locale added to list"
+msgstr "地區語言已新增至清單中。"
+
+#: inc/functions.php:417
+msgid "Locale removed from list"
+msgstr "地區語言已從清單中移除。"
+
+#: inc/functions.php:418
+msgid "Locale moved up"
+msgstr "地區語言已上移。"
+
+#: inc/functions.php:419
+msgid "Locale moved down"
+msgstr "地區語言已下移。"
+
+#: inc/functions.php:452
+msgid "Site Language"
+msgstr "網站介面語言"
+
+#: inc/functions.php:479
+msgid "Language"
+msgstr "介面語言個人偏好"
+
+#. Description of the plugin
+#: inc/functions.php:563
+msgid "Choose languages for displaying WordPress in, in order of preference."
+msgstr "設定要用於顯示 WordPress 介面的本地化語言套件，並以偏好的順序顯示。"
+
+#: inc/functions.php:574
+msgid "Nothing set."
+msgstr "尚未設定。"
+
+#: inc/functions.php:578
+msgid "Falling back to Site Default."
+msgstr "切換回預設的網站介面語言。"
+
+#. translators: %s: English (United States)
+#: inc/functions.php:581
+msgid "Falling back to %s."
+msgstr "切換回 [%s]。"
+
+#: inc/functions.php:612
+msgid "Move Up"
+msgstr "上移"
+
+#: inc/functions.php:623
+msgid "Move Down"
+msgstr "下移"
+
+#: inc/functions.php:634
+msgid "Remove"
+msgstr "移除"
+
+#: inc/functions.php:641
+msgid "Inactive Locales"
+msgstr "未使用的地區語言"
+
+#: inc/functions.php:664
+msgid "Add"
+msgstr "新增語言套件"
+
+#. Plugin Name of the plugin
+msgid "Preferred Languages"
+msgstr "Preferred Languages"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/swissspidy/preferred-languages/"
+msgstr "https://github.com/swissspidy/preferred-languages/"
+
+#. Author of the plugin
+msgid "Pascal Birchler"
+msgstr "Pascal Birchler"
+
+#. Author URI of the plugin
+msgid "https://pascalbirchler.com"
+msgstr "https://pascalbirchler.com"

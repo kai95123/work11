@@ -1,0 +1,90 @@
+0000.004 () Opened log file at time: Thu, 24 Jan 2019 07:15:16 +0000 on http://192.168.10.9/web09
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.4 WP: 4.9 PHP: 7.3.0 (apache2handler, Windows NT PC09 6.1 build 7601 (Windows 7 Professional Edition Service Pack 1) i586) MySQL: 10.1.37-MariaDB WPLANG: zh_TW Server: Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 38M | 6M) multisite: N openssl: OpenSSL 1.1.0j  20 Nov 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 60561.8 MB
+0000.021 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.029 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.034 () Entity: db
+0000.034 () restore_backup(backup_file=backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-db.gz, type=db, info=a:0:{}, last_one=)
+0000.034 () Unpacking backup... (backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-db.gz, 0.2 Mb)
+0000.035 () Database successfully unpacked
+0000.035 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.035 () Using direct MySQL access; value of use_mysqli is: 1
+0000.053 () Tried to raise max_allowed_packet from 1 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.053 () Max packet size: 1 MB
+0000.053 () Entering maintenance mode
+0000.053 () 啟用維護模式&#8230;
+0000.054 () Backup of: http://192.168.10.9/web09
+0000.055 () Content URL: http://192.168.10.9/web09/wp-content
+0000.055 () Uploads URL: http://192.168.10.9/web09/wp-content/uploads
+0000.055 () Old table prefix: wp_
+0000.055 () Site information: multisite=0
+0000.055 () New table prefix: wp_
+0000.061 () Processing table (InnoDB): wp_options
+0000.115 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.122 () Processing table (InnoDB): wp_users
+0000.135 () Processing table (InnoDB): wp_usermeta
+0000.152 () Processing table (InnoDB): wp_commentmeta
+0000.166 () Processing table (InnoDB): wp_comments
+0000.182 () Processing table (InnoDB): wp_links
+0000.194 () Processing table (InnoDB): wp_postmeta
+0000.219 () Processing table (InnoDB): wp_posts
+0000.246 () Processing table (InnoDB): wp_term_relationships
+0000.262 () Processing table (InnoDB): wp_term_taxonomy
+0000.276 () Processing table (InnoDB): wp_termmeta
+0000.289 () Processing table (InnoDB): wp_terms
+0000.304 () Processing table (InnoDB): wp_ngg_album
+0000.314 () Processing table (InnoDB): wp_ngg_gallery
+0000.326 () Processing table (InnoDB): wp_ngg_pictures
+0000.343 () Processing table (InnoDB): wp_pollsa
+0000.350 () Database queries processed: 50 in 0.31 seconds
+0000.358 () Processing table (InnoDB): wp_pollsip
+0000.371 () Processing table (InnoDB): wp_pollsq
+0000.389 () Unlocking database and leaving maintenance mode
+0000.389 () 停用維護模式中&#8230;
+0000.389 () Finished: lines processed: 59 in 0.35 seconds
+0000.389 () 清理無用的檔案...
+0000.396 () Entity: plugins
+0000.396 () restore_backup(backup_file=backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:40:"C:\xampp\htdocs\web09/wp-content/plugins";s:11:"description";s:15:"外掛(plugins)";}, last_one=)
+0000.396 () Unpacking backup... (backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-plugins.zip, 15.5 Mb)
+0000.397 () Unzipping backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-plugins.zip to C:/xampp/htdocs/web09/wp-content/upgrade/3335af71/ using UpdraftPlus_ZipArchive
+0001.073 () Unzip progress: 1002 out of 3876 files (17.8 MB, plugins/updraftplus/languages/updraftplus-he_IL.mo)
+0001.556 () Unzip progress: 2003 out of 3876 files (31 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Identity/Resource/Token.php)
+0001.737 () Unzip progress: 3004 out of 3876 files (36.2 MB, plugins/addthis/frontend/src/directives/newShareToolCard/newShareToolCardDrct.js)
+0002.136 () Unzip progress: 3876 out of 3876 files (49.2 MB, plugins/nextgen-gallery/products/photocrati_nextgen/modules/i18n/lang/nggallery-da_DK.po)
+0002.137 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.137 () Moving old data: can potentially use wp_filesystem method / -old
+0002.137 () Moving old data out of the way...
+0002.800 () Top-level entities being moved: addthis, akismet, elementor, hc-custom-wp-admin-url, hello.php, index.php, nextgen-gallery, updraftplus, wp-db-backup, wp-optimize, wp-polls
+0002.855 () Moving unpacked backup into place...
+0003.615 () Top-level entities being moved: addthis, akismet, elementor, hc-custom-wp-admin-url, hello.php, index.php, nextgen-gallery, updraftplus, wp-db-backup, wp-optimize, wp-polls
+0003.672 () 清理無用的檔案...
+0003.678 () Entity: themes
+0003.678 () restore_backup(backup_file=backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-themes.zip, type=themes, info=a:2:{s:4:"path";s:39:"C:\xampp\htdocs\web09/wp-content/themes";s:11:"description";s:14:"佈景(themes)";}, last_one=)
+0003.678 () Unpacking backup... (backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-themes.zip, 5.4 Mb)
+0003.679 () Unzipping backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-themes.zip to C:/xampp/htdocs/web09/wp-content/upgrade/49ccf093/ using UpdraftPlus_ZipArchive
+0003.819 () Unzip progress: 345 out of 345 files (7.5 MB, themes/twentysixteen/template-parts/content.php)
+0003.820 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.820 () Moving old data: can potentially use wp_filesystem method / -old
+0003.820 () Moving old data out of the way...
+0003.870 () Top-level entities being moved: index.php, talon, twentyfifteen, twentyfourteen, twentyseventeen, twentysixteen
+0003.897 () Moving unpacked backup into place...
+0003.957 () Top-level entities being moved: index.php, talon, twentyfifteen, twentyfourteen, twentyseventeen, twentysixteen
+0003.987 () 清理無用的檔案...
+0003.991 () Entity: uploads
+0003.991 () restore_backup(backup_file=backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:40:"C:\xampp\htdocs\web09/wp-content/uploads";s:11:"description";s:24:"已上傳檔案(uploads)";}, last_one=)
+0003.991 () Unpacking backup... (backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-uploads.zip, 25.7 Mb)
+0003.991 () Unzipping backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-uploads.zip to C:/xampp/htdocs/web09/wp-content/upgrade/269fe077/ using UpdraftPlus_ZipArchive
+0004.111 () Unzip progress: 154 out of 154 files (25.7 MB, uploads/2019/01/sandwich-1.jpg)
+0004.111 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.112 () Moving old data: can potentially use wp_filesystem method / -old
+0004.112 () Moving old data out of the way...
+0004.143 () Moving unpacked backup into place...
+0004.181 () 清理無用的檔案...
+0004.185 () Entity: others
+0004.185 () restore_backup(backup_file=backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-others.zip, type=others, info=a:2:{s:4:"path";s:32:"C:\xampp\htdocs\web09/wp-content";s:11:"description";s:6:"其它";}, last_one=1)
+0004.185 () Unpacking backup... (backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-others.zip, 20.4 Mb)
+0004.185 () Unzipping backup_2019-01-24-1442_192168109_web09_1bc465ce4a4f-others.zip to C:/xampp/htdocs/web09/wp-content/upgrade/7a1470d0/ using UpdraftPlus_ZipArchive
+0004.327 () Unzip progress: 186 out of 186 files (21.9 MB, ngg_styles/nggallery.css)
+0004.366 () 清理無用的檔案...
+0004.386 () Restore successful!
+0004.386 () Restore successful
